@@ -1,0 +1,6 @@
+{
+  "name": "InfinityVideo AI",
+  "description": "Custom-duration AI video generator with prompt-based duration parsing, multi-clip scene orchestration, video stitching, and media duration validation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#6366f1" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+  <!-- Infinity loop + Video reel symbol -->
+  <g filter="url(#shadow)" transform="translate(256, 256)">
+    <path d="M -110,-45 C -160,-45 -185,-10 -185,25 C -185,60 -150,95 -105,95 C -60,95 -25,50 0,0 C 25,-50 60,-95 105,-95 C 150,-95 185,-60 185,-25 C 185,10 160,45 110,45 C 60,45 25,0 0,0 C -25,0 -60,-45 -110,-45 Z" 
+          fill="none" stroke="url(#glow)" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Center play triangle -->
+    <polygon points="-12,-20 18,0 -12,20" fill="#ffffff"/>
+  </g>
+</svg>
